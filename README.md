@@ -13,3 +13,6 @@
 
 For more information about this project click on the link below:
   https://sun-microwave-2cf.notion.site/Airbus-React-Project-7e34b527eefd4946aaf449eb17be468f
+
+<h2>This project is hosted on following link</h2>
+https://airbus-clone-react-by-sajanbhosale.netlify.app/
