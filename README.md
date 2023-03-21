@@ -1,20 +1,15 @@
-# boilerplate-react-functional-public
+# Airbus React Project
 
-In this app we will be making a Word and Character counter app.
-First there needs to be a <code>textarea</code> element which will take the input
-from user.
+## Project Objective
 
-Below that element, create 2 divs with id="word-counter" and id="char-counter" respectively.
-#word-counter will show the number of words(empty space is not considered a word) and #char-counter will show the number of characters typed.
+- You will be building an Airbus clone using React.js
+- In the end, we’ll have a web application which lets us book flight tickets.
 
-Also make an input with id="char-limit-input" which takes a number which is the limit of characters we can type in.
-By default char limit should be 50.
+## Project Context
 
-And the last input should be a slider input(with id ="fontSize-input") for taking the font size, default and min value should be 16px and max would be 32px.
+- Air transport provides comfortable, efficient and quick transport services. It is the fastest mode of transport and therefore suitable for carriage of goods over a long distance. In this project we will create a flight booking app which let’s us book flight tickets.
 
-Apply the fontSize property to the textarea element.
+**Tech Stack Prerequisite:** HTML, CSS, JavaScript, React
 
-
-
-Demo video:-
-<video src="https://d3dyfaf3iutrxo.cloudfront.net/general/upload/e449406acecb4a1186ae9cc77a55933f.mp4" controls autoplay muted>
+For more information about this project click on the link below:
+  https://sun-microwave-2cf.notion.site/Airbus-React-Project-7e34b527eefd4946aaf449eb17be468f
