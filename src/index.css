@@ -1,0 +1,334 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  background-color: #ffeb3b !important;
+  color: #000 !important;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.p-3 {
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 800px) {
+  .css-1blauzg {
+    width: 70% !important;
+    position: absolute !important;
+    /* top: 15% !important;
+    left: 10% !important; */
+
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+.w-50 {
+  width: 75% !important;
+}
+  
+}
+/* .css-wlwnyd-JoyTypography-root{
+  color: #000 !important;
+} */
+.css-hh1s1m-JoyCardCover-root [data-first-child]{
+  border-radius: 0 !important;
+}
+label {
+  color: #000;
+}
+
+#hero_search_flights{
+  display: flex;
+  background-color: #fff;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 30px;
+   /* position: absolute; */
+   /* top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); */
+   width: 90%;
+  border-radius: 5px;
+  flex-wrap: wrap;
+    
+
+}
+#hero_search_flights input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid gray;
+    padding: 5px 10px;
+    width: 100%;
+}
+#hero_search_flights #btn {
+   border: 1px solid #ffeb3b;
+   background-color: #ffeb3b;
+   color: #000 !important;
+   padding: 10px 20px;
+   border-radius: 5px;
+   box-shadow: 0px 2px 6px #000;
+   margin-top: 2rem;
+
+}
+.inputConatiner{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* width: 100%; */
+  margin-top: 1rem !important;
+}
+
+#heroText{
+  align-self: flex-start;
+  margin-left: 5%;
+  font-size: 2em;
+   font-weight: bold;
+   /* --webkit-margin-before: 0.67em;
+   --webkit-margin-after: 0.67em;
+   --webkit-margin-start: 0px;
+   --webkit-margin-end: 0px; */
+   font-family:-webkit-body;
+
+
+  /* background-color: black; */
+}
+#cardContent{
+    /* background-color: aqua !important; */
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    /* height: 50vh; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+   
+
+}
+#mainContainer{
+ /* background-color: #ffeb3b !important; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ margin: 60px;
+}
+
+@media  screen and (max-width: 850px) {
+  .inputConatiner{
+    width: 100% !important;
+
+  }
+#hero_search_flights #btn {
+  width: 100% !important;
+}
+}
+
+@media screen and (max-width: 500px) {
+  #heroText {
+    font-size: 19px !important;
+    line-height: 80%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+  }
+#mainContainer{
+  margin: 0 !important;
+}
+}
+h5, .h5{
+  margin: 1rem auto;
+}
+
+.flightContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 20px 50px;
+  border-radius: 10px;
+  border-bottom: 2px dotted rgb(74, 74, 137);
+  background-color: rgb(224, 243, 236);
+  flex-wrap: wrap;
+
+}
+.return, .departure, .leftAlign{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#bookBtn{
+  border: 1px solid rgb(22, 177, 22);
+  background-color: rgb(22, 177, 22);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 100px;
+
+}
+.priceAndBooking{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.outerContainer{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 50px;
+  column-gap: 2rem;
+  
+}
+.allFlightsConatainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .width_hundred {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  .map{
+     display: none;
+  }
+.outerContainer{
+  grid-template-columns: 1fr;
+
+}
+ #paymentFormContainer{
+    flex-wrap: wrap !important;
+ }
+ .css-1lm7yzk-MuiStack-root>:not(style){
+  margin: 0 !important;
+}
+
+  
+}
+.city_name, .price{
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+.returnTime{
+  color: rgb(22, 177, 22);
+}
+.airlinename{
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.css-wjh20t-MuiPagination-ul{
+    justify-content: center;
+}
+.css-ahj2mt-MuiTypography-root{
+  margin-top: 1em !important;
+}
+
+/* form.MuiContainer-root.MuiContainer-maxWidthLg.css-17i91bc-MuiContainer-root {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  align-items: center;
+}
+.MuiBox-root.css-0 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  border: 1px solid gray;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+  cursor: pointer;
+  align-self: flex-start;
+}
+.css-ahj2mt-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  text-align: left;
+}
+.css-ahj2mt-MuiTypography-root {
+  margin-top: 0em !important;
+} */
+
+.css-pwngrv-MuiPaper-root-MuiCard-root{
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.css-1lm7yzk-MuiStack-root>:not(style)+:not(style){
+  margin-top: 0 !important;
+
+}
+
+
+@media screen and (max-width: 460px) {
+  .css-1ffmuz7-MuiTypography-root{
+    font-size: 1rem !important;
+  }
+  .css-10e2p1f-MuiStack-root{
+    padding: 30px 0 !important;
+  }
+  .css-1pjbllt{
+  font-size:.9rem;
+
+}
+  
+}
+#cancelButton {
+  position: absolute;
+  max-width: 100%;
+  /* right: -10px; */
+  top: 25px;
+  right: 35px;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+#hidden{
+  visibility: hidden;
+}
+@media  screen and (min-width: 1000px) {
+  #hidden{
+    display: none;
+
+  }
+  
+}
+.css-1ecg57q > :not(style) + :not(style){
+  margin: 0px !important;
+}
+.css-47nslc [data-first-child]{
+    border-radius: 0 !important;
+}
+
+.css-1ecg57q > :not(style){
+ margin: 0 !important;
+}
+p.MuiTypography-root.MuiTypography-body1.css-ahj2mt-MuiTypography-root span {
+    cursor: pointer;
+}
